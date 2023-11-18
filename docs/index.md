@@ -30,8 +30,17 @@ Funktion die Flächen der beiden den Ring definierenden Kreise ausgeben
 Ausgabe der Zwischenresultate).
 
 Zur Erinnerung: Die Fläche eines Kreises berechnet sich nach der Formel
-$A = \pi \cdot r^2$.
+$A = \pi \cdot r^2$. $\pi$ kann als 3.14 angenommen werden.
 
-![Illustration Ring](illustration_aufgabe.svg)
-<img src="illustration_aufgabe.svg"></img>
+```Python
+def ringflaeche(r_g, r_k):
+    PI = 3.14
 
+    akg = PI * r_g ** 2
+    zwischenergebnis(akg)
+
+    akk = PI * r_k ** 2
+    zwischenergebnis(akk)
+    
+    return akg - akk
+```
