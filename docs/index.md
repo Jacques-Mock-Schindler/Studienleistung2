@@ -21,7 +21,9 @@ a. Schreiben Sie eine Funktion
        print (f'Zwischenergebnis: {wert_des_zwischenergebnises}')
    ```
 
-b. Schreiben Sie eine Funktion `ringflaeche(radius_gross,
-radius_klein)`, welche zwei Radien entgegennimmt und aus diesen die
+b. Schreiben Sie eine Funktion `ringflaeche(r_g,
+r_k)`, welche zwei Radien entgegennimmt und aus diesen die
 Fläche des dadurch definierten Ringes berechnet.
+
+![Illustration Ring](illustration_aufgabe.svg)
 
