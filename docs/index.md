@@ -23,7 +23,15 @@ a. Schreiben Sie eine Funktion
 
 b. Schreiben Sie eine Funktion `ringflaeche(r_g,
 r_k)`, welche zwei Radien entgegennimmt und aus diesen die
-Fläche des dadurch definierten Ringes berechnet.
+Fläche des dadurch definierten Ringes berechnet. Darüber hinaus soll die
+Funktion unter Verwendung der von Ihnen in Teilaufgabe a. geschriebenen
+Funktion die Flächen der beiden den Ring definierenden Kreise ausgeben
+(Falls Sie Teilaufgabe a. nicht gelöst haben, verzichten Sie auf die
+Ausgabe der Zwischenresultate).
+
+Zur Erinnerung: Die Fläche eines Kreises berechnet sich nach der Formel
+$A = \pi \cdot r^2$.
 
 ![Illustration Ring](illustration_aufgabe.svg)
+<img src="illustration_aufgabe.svg"></img>
 
