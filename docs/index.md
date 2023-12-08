@@ -26,7 +26,10 @@ Bloomschen Taxonomiestufen[^1].
 
 ## Überprüfung der Lernziele
 
+Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 
+- Die SuS können Funktionen in Python definieren.
+- 
 
 ## Aufgabenstellung
 
