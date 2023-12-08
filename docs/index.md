@@ -11,36 +11,13 @@ In diesem Text sollen die folgenden Fragen beantwortet werden:
 
 ## Aufgabenstellung
 
-a. Schreiben Sie eine Funktion
-   `zwischenergebnis(wert_des_zwischenergebnisses)`, welche ein Parameter
-   entgegennimmt und diesen in der Form *Zwischenergebnis:
-   wert_des_zwischenergebnises* am Bildschirm ausgibt.
+Schreiben Sie eine Funktion, welche die Differenz zwischen zwei Zahlen
+berechnet. Die Differenz soll immer eine positive Zahl sein. Um dies
+sicherzustellen, soll die Funktion für die Berechnung unabhängig von der
+Benutzereingabe die kleiner Zahl von der grösseren abziehen.
 
-   ```Python
-   def zwischenergebnis(wert_des_zwischenergebnises):
-       print (f'Zwischenergebnis: {wert_des_zwischenergebnises}')
-   ```
+Schreiben Sie für die Lösung dieses Problems zwei Funktionen
 
-b. Schreiben Sie eine Funktion `ringflaeche(r_g,
-r_k)`, welche zwei Radien entgegennimmt und aus diesen die
-Fläche des dadurch definierten Ringes berechnet. Darüber hinaus soll die
-Funktion unter Verwendung der von Ihnen in Teilaufgabe a. geschriebenen
-Funktion die Flächen der beiden den Ring definierenden Kreise ausgeben
-(Falls Sie Teilaufgabe a. nicht gelöst haben, verzichten Sie auf die
-Ausgabe der Zwischenresultate).
-
-Zur Erinnerung: Die Fläche eines Kreises berechnet sich nach der Formel
-$A = \pi \cdot r^2$. $\pi$ kann als 3.14 angenommen werden.
-
-```Python
-def ringflaeche(r_g, r_k):
-    PI = 3.14
-
-    akg = PI * r_g ** 2
-    zwischenergebnis(akg)
-
-    akk = PI * r_k ** 2
-    zwischenergebnis(akk)
-    
-    return akg - akk
-```
+a. eine Funktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
+   nicht grösser ist als $a$ und
+b. eine Funktion, welche die Differenz berechnet und zurück gibt.
