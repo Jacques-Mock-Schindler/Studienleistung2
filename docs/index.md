@@ -18,6 +18,6 @@ Benutzereingabe die kleiner Zahl von der grösseren abziehen.
 
 Schreiben Sie für die Lösung dieses Problems zwei Funktionen
 
-a. eine Funktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
+a. eine Hilfsfunktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
    nicht grösser ist als $a$ und
-b. eine Funktion, welche die Differenz berechnet und zurück gibt.
+b. eine Hauptfunktion, welche die Differenz berechnet und zurück gibt.
