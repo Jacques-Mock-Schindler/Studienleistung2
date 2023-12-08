@@ -21,3 +21,5 @@ Schreiben Sie für die Lösung dieses Problems zwei Funktionen
 a. eine Hilfsfunktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
    nicht grösser ist als $a$ und
 b. eine Hauptfunktion, welche die Differenz berechnet und zurück gibt.
+
+Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
