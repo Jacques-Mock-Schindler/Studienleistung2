@@ -4,7 +4,7 @@ In diesem Text sollen die folgenden Fragen beantwortet werden:
 
 - Warum ist die Prüfungsaufgabe kognitiv anspruchsvoll?
 - Wie stelle ich sicher, dass die Lösung der Prüfungsaufgabe die
-  Erreichung bzw. NichtErreichung des Lernziels tatsächlich beobachtbar
+  Erreichung bzw. Nicht-Erreichung des Lernziels tatsächlich beobachtbar
   macht?
 - Welche Anhaltspunkte werden mich in der Korrektur dieser
   Prüfungsaufgabe leiten?
@@ -17,6 +17,16 @@ ist trotz allen Bemühungen sehr stark durch die Ausrichtung auf
 Fachdisziplinen geprägt. Erfahrungsgemäss stellt der Einbezug von
 Inhalten aus anderen Fachdisziplinen für viele Schülerinnen
 und Schüler (SuS) eine Herausforderung dar.
+
+Wenn eine Funktion zu Programmieren ist, muss die Aufgabenstellung in
+Teilprobleme zerlegt werden. Die Lösungen der Teilprobleme müssen
+anschliessend zu einem neuen Ganzen zusammengefügt werden. Damit
+entspricht die Aufgabe der Stufe 5 - Synthese - der
+Bloomschen Taxonomiestufen[^1].
+
+## Überprüfung der Lernziele
+
+
 
 ## Aufgabenstellung
 
@@ -43,3 +53,6 @@ a. eine Hilfsfunktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
 b. eine Hauptfunktion, welche die Differenz berechnet und zurück gibt.
 
 Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
+
+[^1]: https://paeda-logics.ch/wp-content/uploads/2020/01/Taxonomiestufen_Bloom.pdf
+    besucht am 8. Dezember 2023
