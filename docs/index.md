@@ -11,6 +11,17 @@ In diesem Text sollen die folgenden Fragen beantwortet werden:
 
 ## Aufgabenstellung
 
+Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
+Investition (Return on Investment, RoI) berechnet.
+
+Schreiben Sie für die Berechnung der RoI zwei Funktionen.
+
+1. Eine Hilfsfunktion, welche den Gewinn der Investition berechnet.
+2. Ein Hauptfunktion, welche unter Verwendung der Hilfsfunktion die RoI
+   berechnet.
+
+Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
+
 Schreiben Sie eine Funktion, welche die Differenz zwischen zwei Zahlen
 berechnet. Die Differenz soll immer eine positive Zahl sein. Um dies
 sicherzustellen, soll die Funktion für die Berechnung unabhängig von der
