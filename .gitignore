@@ -2,3 +2,9 @@
 *
 # but not these files...
 !.gitignore
+!*.md
+!*.py
+!*.svg
+
+# ...even if they are in subdirectories
+!*/
