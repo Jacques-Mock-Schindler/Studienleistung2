@@ -9,6 +9,15 @@ In diesem Text sollen die folgenden Fragen beantwortet werden:
 - Welche Anhaltspunkte werden mich in der Korrektur dieser
   Prüfungsaufgabe leiten?
 
+## Warum die Prüfungsaufgabe kognitiv anspruchsvoll ist
+
+Die Aufgabenstellung nimmt mit der Gesamtkapitalrentabilität Bezug auf
+ein anderes Fach. Die aktuelle Organisation des Unterrichts an Gymnasien
+ist trotz allen Bemühungen sehr stark durch die Ausrichtung auf
+Fachdisziplinen geprägt. Erfahrungsgemäss stellt der Einbezug von
+Inhalten aus anderen Fachdisziplinen für viele Schülerinnen
+und Schüler (SuS) eine Herausforderung dar.
+
 ## Aufgabenstellung
 
 Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
