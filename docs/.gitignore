@@ -1,9 +1,3 @@
-*.json
-*.pdf
-*.vscode
-*.ods
-**/.vscode
-**/.venv
-**/.ipynb_checkpoints
-*.pyc
-._*
+# ignore all kind of files
+*
+# but not these files...
