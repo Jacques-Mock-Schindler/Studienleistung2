@@ -69,9 +69,9 @@ Schreiben Sie für die Berechnung der RoI zwei Funktionen.
 
 1. Eine Hilfsfunktion, welche den Gewinn der Investition berechnet.
 2. Ein Hauptfunktion, welche unter Verwendung der Hilfsfunktion die RoI
-   berechnet. Die RoI soll von der Funktion zurückgegeben und im
-   Terminal als Prozentsatz auf zwei Stellen hinter dem Komma ausgegeben
-   werden.
+   berechnet. Die RoI soll von der Funktion zurückgegeben werden.
+   Ausserdem soll im Terminal "The RoI is 12.25%." mit dem korrekten RoI
+   ausgegeben werden.
 
 Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
 
