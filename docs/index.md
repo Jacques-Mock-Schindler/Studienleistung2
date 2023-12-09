@@ -28,12 +28,12 @@ Bloomschen Taxonomiestufen[^1].
 
 Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 
-Die SuS
-- können Funktionen in Python definieren;
-- können selber definierte Funktionen in Scripts und als Bestandteil
-  eigener Funktionen verwenden ausserdem
-- können sie vordefinierte Funktionen in Scripts und als Bestandteil
-  eigener Funktionen verwenden.
+>Die SuS
+>- können Funktionen in Python definieren;
+>- können selber definierte Funktionen in Scripts und als Bestandteil
+>  eigener Funktionen verwenden ausserdem
+>- können sie vordefinierte Funktionen in Scripts und als Bestandteil
+>  eigener Funktionen verwenden.
 
 Die Aufgabenstellung verlangt, dass zwei Funktionen durch die SuS
 definiert werden. Dabei soll eine der beiden Funktionen die andere
