@@ -55,6 +55,11 @@ Für die
 
 Die gesamte Aufgabe gibt damit 5 Punkte.
 
+Die Logik und die Ausgabe kann mit Hilfe des Unittests überprüft werden.
+Manuell zu korrigieren bleiben die Type Hints und Docstrings. Ausserdem
+muss bei fehlerhaftem Unittest der Code für die Vergabe von Teilpunkten
+manuell geprüft werden.
+
 ## Aufgabenstellung
 
 Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
