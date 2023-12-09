@@ -43,6 +43,18 @@ ausgegangen werden, dass SuS, welche selber definierte Funktionen in
 eigenen Funktionen verwenden, dies auch mit vordefinierten Funktionen
 können. Implizit wird damit auch das dritte Lernziel überprüft.
 
+## Korrekturanleitung
+
+Für die
+
+- Implementierung der Hilfsfunktion gibt es 1 Punkt;
+- die Type Hints und den Docstring der Hilfsfunktion gibt es 1 Punkt;
+- die korrekte Implementierung der Berechnung der RoI gibt 1 Punkt;
+- die Ausgabe im Terminal gibt 1 Punkt sowie
+- die korrekte Formatierung des Resultates im Terminal gibt 1 Punkt.
+
+Die gesamte Aufgabe gibt damit 5 Punkte.
+
 ## Aufgabenstellung
 
 Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
@@ -52,7 +64,9 @@ Schreiben Sie für die Berechnung der RoI zwei Funktionen.
 
 1. Eine Hilfsfunktion, welche den Gewinn der Investition berechnet.
 2. Ein Hauptfunktion, welche unter Verwendung der Hilfsfunktion die RoI
-   berechnet.
+   berechnet. Die RoI soll von der Funktion zurückgegeben und im
+   Terminal als Prozentsatz auf zwei Stellen hinter dem Komma ausgegeben
+   werden.
 
 Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
 
