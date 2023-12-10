@@ -10,7 +10,8 @@ output: pdf_document
 ## Aufgabenstellung
 
 Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
-Investition (Return on Investment, RoI) berechnet.
+Investition (Return on Investment, RoI) aus den Grössen Ausgaben,
+Einnahmen sowie investiertes Kapital berechnet.
 
 Schreiben Sie für die Berechnung der RoI zwei Funktionen.
 
@@ -22,18 +23,6 @@ Schreiben Sie für die Berechnung der RoI zwei Funktionen.
 
 Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
 
-Schreiben Sie eine Funktion, welche die Differenz zwischen zwei Zahlen
-berechnet. Die Differenz soll immer eine positive Zahl sein. Um dies
-sicherzustellen, soll die Funktion für die Berechnung unabhängig von der
-Benutzereingabe die kleiner Zahl von der grösseren abziehen.
-
-Schreiben Sie für die Lösung dieses Problems zwei Funktionen
-
-a. eine Hilfsfunktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
-   nicht grösser ist als $a$ und
-b. eine Hauptfunktion, welche die Differenz berechnet und zurück gibt.
-
-Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
 
 ## Leitfragen
 
@@ -61,15 +50,26 @@ ausgeprägten Silo-Denken der Schülerinnen und Schüler (SuS).
 Die gestellte Prüfungsaufgabe verlangt inhaltlich die Berechnung der
 Gesamtkapitalrentabilität. Damit wird auf ein Inhalt aus dem Fach
 Wirtschaft und Recht Bezug genommen. Dies zwingt die SuS, Wissen aus
-einem Fach in einem anderen Fach zu verwenden. Ein solcher, wenn auch
-bescheidener, interdisziplinärer Ansatz stellt für viele SuS eine
-Herausforderung dar.
+einem Fach in einem anderen Fach anzuwenden. Ein solcher, wenn auch
+bescheidener, interdisziplinärer Ansatz, stellt für viele SuS eine
+Herausforderung dar und macht die Aufgabenstellung schon so
+anspruchsvoll.
+
+Die Aufgabenstellung für die Studienleistung 2 in der Fachdidaktik 1
+verlangt explizit, dass die Prüfungsaufgabe die Definition einer
+Funktion beinhalten muss. Das Programmieren von Funktionen ist per se
+eine anspruchsvolle Aufgabe. Um entsprechende Probleme zu meistern, muss
+die Aufgabenstellung zuerst in Teilprobleme zerlegt werden. Dies
+entspricht Stufe 4 der Taxonomiestufen nach Bloom[^1]. In der konkreten
+Aufgabenstellung erhalten die SuS dazu eine kleine Hilfestellung, indem
+verlangt wird, dass die Berechnung des Gewinnes in einer Hilfsfunktion
+zu erfolgen hat. 
 
 Wenn eine Funktion zu Programmieren ist, muss die Aufgabenstellung in
 Teilprobleme zerlegt werden. Die Lösungen der Teilprobleme müssen
 anschliessend zu einem neuen Ganzen zusammengefügt werden. Damit
 entspricht die Aufgabe der Stufe 5 - Synthese - der
-Bloomschen Taxonomiestufen[^1].
+Bloomschen Taxonomiestufen.
 
 ## Überprüfung der Lernziele
 
