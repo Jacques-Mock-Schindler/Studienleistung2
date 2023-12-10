@@ -1,13 +1,12 @@
 ---
 title: "Studienleistung 2 Fachdidaktik 1 im GymInf-Programm im Herbstsemester 2023"
+subtitle: "Konzeption einer Prüfungsaufgabe zu Funktionen in Python"
 author: "Jacques Mock Schindler"
 date: "10. Dezember 2023"
 output: pdf_document
 ---
 
-# Konzeption einer Prüfungsaufgabe zu Funktionen in Python
-
-## Aufgabenstellung
+# Prüfungsaufgabe
 
 Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
 Investition (Return on Investment, RoI) aus den Grössen Ausgaben,
@@ -24,7 +23,7 @@ Schreiben Sie für die Berechnung der RoI zwei Funktionen.
 Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
 
 
-## Leitfragen
+# Leitfragen
 
 In diesem Text sollen die folgenden Fragen beantwortet werden:
 
@@ -35,7 +34,7 @@ In diesem Text sollen die folgenden Fragen beantwortet werden:
 >- Welche Anhaltspunkte leiten die Korrektur dieser
 >  Prüfungsaufgabe?
 
-## Warum die Prüfungsaufgabe kognitiv anspruchsvoll ist
+# Warum die Prüfungsaufgabe kognitiv anspruchsvoll ist
 
 Die aktuelle Organisation des Unterrichts an Gymnasien ist in zweierlei
 Hinsicht stark eingeschränkt. Einerseits orientiert sich der Unterricht
@@ -70,7 +69,7 @@ Damit erreicht die Aufgabenstellung immerhin die zweithöchste
 Taxonomiestufe nach Bloom und darf als kognitiv anspruchsvoll bezeichnet
 werden.
 
-## Überprüfung der Lernziele
+# Überprüfung der Lernziele
 
 Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 
