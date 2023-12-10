@@ -78,7 +78,7 @@ Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 >- können Funktionen in Python definieren;
 >
 >- können selber definierte Funktionen in Scripts und als Bestandteil
->  eigener Funktionen verwenden ausserdem
+>  eigener Funktionen verwenden und ausserdem
 > 
 >- können sie vordefinierte Funktionen in Scripts und als Bestandteil
 >  eigener Funktionen verwenden.
