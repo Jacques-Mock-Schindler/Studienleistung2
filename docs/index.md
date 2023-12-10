@@ -1,22 +1,66 @@
+---
+title: "Studienleistung 2 Fachdidaktik 1 im GymInf-Programm im Herbstsemester 2023"
+author: "Jacques Mock Schindler"
+date: "10. Dezember 2023"
+output: pdf_document
+---
+
 # Konzeption einer Prüfungsaufgabe zu Funktionen in Python
+
+## Aufgabenstellung
+
+Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
+Investition (Return on Investment, RoI) berechnet.
+
+Schreiben Sie für die Berechnung der RoI zwei Funktionen.
+
+1. Eine Hilfsfunktion, welche den Gewinn der Investition berechnet.
+2. Ein Hauptfunktion, welche unter Verwendung der Hilfsfunktion die RoI
+   berechnet. Die RoI soll von der Funktion zurückgegeben werden.
+   Ausserdem soll im Terminal "The RoI is 12.25%." mit dem korrekten RoI
+   ausgegeben werden.
+
+Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
+
+Schreiben Sie eine Funktion, welche die Differenz zwischen zwei Zahlen
+berechnet. Die Differenz soll immer eine positive Zahl sein. Um dies
+sicherzustellen, soll die Funktion für die Berechnung unabhängig von der
+Benutzereingabe die kleiner Zahl von der grösseren abziehen.
+
+Schreiben Sie für die Lösung dieses Problems zwei Funktionen
+
+a. eine Hilfsfunktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
+   nicht grösser ist als $a$ und
+b. eine Hauptfunktion, welche die Differenz berechnet und zurück gibt.
+
+Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
+
+## Leitfragen
 
 In diesem Text sollen die folgenden Fragen beantwortet werden:
 
-- Warum ist die Prüfungsaufgabe kognitiv anspruchsvoll?
-- Wie stelle ich sicher, dass die Lösung der Prüfungsaufgabe die
-  Erreichung bzw. Nicht-Erreichung des Lernziels tatsächlich beobachtbar
-  macht?
-- Welche Anhaltspunkte werden mich in der Korrektur dieser
-  Prüfungsaufgabe leiten?
+>- Warum ist die Prüfungsaufgabe kognitiv anspruchsvoll?
+>- Wie wird sichergestellt, dass die Lösung der Prüfungsaufgabe die
+>  Erreichung bzw. Nicht-Erreichung des Lernziels tatsächlich beobachtbar
+>  macht?
+>- Welche Anhaltspunkte leiten die Korrektur dieser
+>  Prüfungsaufgabe?
 
 ## Warum die Prüfungsaufgabe kognitiv anspruchsvoll ist
 
-Die Aufgabenstellung nimmt mit der Gesamtkapitalrentabilität Bezug auf
-ein anderes Fach. Die aktuelle Organisation des Unterrichts an Gymnasien
-ist trotz allen Bemühungen sehr stark durch die Ausrichtung auf
-Fachdisziplinen geprägt. Erfahrungsgemäss stellt der Einbezug von
-Inhalten aus anderen Fachdisziplinen für viele Schülerinnen
-und Schüler (SuS) eine Herausforderung dar.
+Die aktuelle Organisation des Unterrichts an Gymnasien ist in zweierlei
+Hinsicht stark eingeschränkt. Einerseits orientiert sich der Unterricht
+stark an den Fachdisziplinen, was bei den Schülerinnen und Schülern
+(SuS) zu einem ausgeprägten Silo-Denken führt. Andererseits stellt die
+Organisation im Stundenplan mit der Taktung in 45 Minuten Einheiten eine
+Einschränkung in zeitlicher Hinsicht dar.
+
+Die gestellte Prüfungsaufgabe verlangt inhaltlich die Berechnung der
+Gesamtkapitalrentabilität. Damit wird auf ein Inhalt aus dem Fach
+Wirtschaft und Recht Bezug genommen. Dies zwingt die SuS, Wissen aus
+einem Fach in einem anderen Fach zu verwenden. Ein solcher, wenn auch
+bescheidener, interdisziplinärer Ansatz stellt für viele SuS eine
+Herausforderung dar.
 
 Wenn eine Funktion zu Programmieren ist, muss die Aufgabenstellung in
 Teilprobleme zerlegt werden. Die Lösungen der Teilprobleme müssen
@@ -60,33 +104,7 @@ Manuell zu korrigieren bleiben die Type Hints und Docstrings. Ausserdem
 muss bei fehlerhaftem Unittest der Code für die Vergabe von Teilpunkten
 manuell geprüft werden.
 
-## Aufgabenstellung
 
-Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
-Investition (Return on Investment, RoI) berechnet.
-
-Schreiben Sie für die Berechnung der RoI zwei Funktionen.
-
-1. Eine Hilfsfunktion, welche den Gewinn der Investition berechnet.
-2. Ein Hauptfunktion, welche unter Verwendung der Hilfsfunktion die RoI
-   berechnet. Die RoI soll von der Funktion zurückgegeben werden.
-   Ausserdem soll im Terminal "The RoI is 12.25%." mit dem korrekten RoI
-   ausgegeben werden.
-
-Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
-
-Schreiben Sie eine Funktion, welche die Differenz zwischen zwei Zahlen
-berechnet. Die Differenz soll immer eine positive Zahl sein. Um dies
-sicherzustellen, soll die Funktion für die Berechnung unabhängig von der
-Benutzereingabe die kleiner Zahl von der grösseren abziehen.
-
-Schreiben Sie für die Lösung dieses Problems zwei Funktionen
-
-a. eine Hilfsfunktion, welche sicherstellt, dass in der Rechnung $a - b$ $b$
-   nicht grösser ist als $a$ und
-b. eine Hauptfunktion, welche die Differenz berechnet und zurück gibt.
-
-Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
 
 [^1]: https://paeda-logics.ch/wp-content/uploads/2020/01/Taxonomiestufen_Bloom.pdf
     besucht am 8. Dezember 2023
