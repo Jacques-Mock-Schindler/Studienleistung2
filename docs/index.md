@@ -74,9 +74,12 @@ werden.
 Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 
 >Die SuS
+>
 >- können Funktionen in Python definieren;
+>
 >- können selber definierte Funktionen in Scripts und als Bestandteil
 >  eigener Funktionen verwenden ausserdem
+> 
 >- können sie vordefinierte Funktionen in Scripts und als Bestandteil
 >  eigener Funktionen verwenden.
 
@@ -93,14 +96,19 @@ Berechnung des Gewinnes verlangt, ist auch sichergestellt, dass das
 erste Lernziel überprüft werden kann, wenn die Aufgabe als ganzes nicht
 gelöst wird.
 
+Die Funktion zur Berechnung des Gewinnes stellt für sich alleine keine
+besonders anspruchsvolle Aufgabe dar. Allerdings müssen die SuS die
+selber definierte Hilfsfunktion in der ebenfalls selber zu definierenden
+Hauptfunktion verwenden. Damit wird das zweite Lernziel abgedeckt.
 
-
-Dabei soll eine der beiden Funktionen die andere
-verwenden. Damit werden die ersten beiden Lernziele überprüft. Das
+Das
 dritte Lernziel wird nicht explizit überprüft. Allerdings kann davon
 ausgegangen werden, dass SuS, welche selber definierte Funktionen in
 eigenen Funktionen verwenden, dies auch mit vordefinierten Funktionen
 können. Implizit wird damit auch das dritte Lernziel überprüft.
+
+So ist sichergestellt, dass durch die Prüfungsaufgabe alle drei
+Lernziele überprüft werden.
 
 ## Korrekturanleitung
 
