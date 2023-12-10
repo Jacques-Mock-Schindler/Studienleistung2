@@ -60,16 +60,15 @@ verlangt explizit, dass die Prüfungsaufgabe die Definition einer
 Funktion beinhalten muss. Das Programmieren von Funktionen ist per se
 eine anspruchsvolle Aufgabe. Um entsprechende Probleme zu meistern, muss
 die Aufgabenstellung zuerst in Teilprobleme zerlegt werden. Dies
-entspricht Stufe 4 der Taxonomiestufen nach Bloom[^1]. In der konkreten
-Aufgabenstellung erhalten die SuS dazu eine kleine Hilfestellung, indem
-verlangt wird, dass die Berechnung des Gewinnes in einer Hilfsfunktion
-zu erfolgen hat. 
+entspricht Stufe 4 der Taxonomiestufen nach Bloom[^1]. 
+Anschliessend müssen die Lösungen der Teilprobleme zu einer Gesamtlösung
+zusammengefügt werden. Dies entspricht Stufe 5 der Taxonomiestufen nach
+Bloom, wird diese doch umschrieben als "*Vorschläge zur Lösung konkreter
+Problemstellungen entwickeln.*".
 
-Wenn eine Funktion zu Programmieren ist, muss die Aufgabenstellung in
-Teilprobleme zerlegt werden. Die Lösungen der Teilprobleme müssen
-anschliessend zu einem neuen Ganzen zusammengefügt werden. Damit
-entspricht die Aufgabe der Stufe 5 - Synthese - der
-Bloomschen Taxonomiestufen.
+Damit erreicht die Aufgabenstellung immerhin die zweithöchste
+Taxonomiestufe nach Bloom und darf als kognitiv anspruchsvoll bezeichnet
+werden.
 
 ## Überprüfung der Lernziele
 
@@ -109,5 +108,5 @@ manuell geprüft werden.
 
 
 
-[^1]: https://paeda-logics.ch/wp-content/uploads/2020/01/Taxonomiestufen_Bloom.pdf
-    besucht am 8. Dezember 2023
+[^1]: https://teachingtools.uzh.ch/asset/630f429c9b41e629750c95e2/download
+    besucht am 10. Dezember 2023
