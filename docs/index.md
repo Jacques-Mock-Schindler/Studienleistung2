@@ -50,10 +50,13 @@ In diesem Text sollen die folgenden Fragen beantwortet werden:
 
 Die aktuelle Organisation des Unterrichts an Gymnasien ist in zweierlei
 Hinsicht stark eingeschränkt. Einerseits orientiert sich der Unterricht
-stark an den Fachdisziplinen, was bei den Schülerinnen und Schülern
-(SuS) zu einem ausgeprägten Silo-Denken führt. Andererseits stellt die
+stark an den Fachdisziplinen. Andererseits stellt die
 Organisation im Stundenplan mit der Taktung in 45 Minuten Einheiten eine
 Einschränkung in zeitlicher Hinsicht dar.
+Die zeitlichen Einschränkungen des Stundenplanes verhindern in vielen
+Fällen interdisziplinäre Unterrichtseinheiten.
+Diese beiden Einschränkungen führen in der Kombination zu einem
+ausgeprägten Silo-Denken der Schülerinnen und Schüler (SuS).
 
 Die gestellte Prüfungsaufgabe verlangt inhaltlich die Berechnung der
 Gesamtkapitalrentabilität. Damit wird auf ein Inhalt aus dem Fach
