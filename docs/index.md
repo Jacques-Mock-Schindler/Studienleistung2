@@ -80,8 +80,22 @@ Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 >- können sie vordefinierte Funktionen in Scripts und als Bestandteil
 >  eigener Funktionen verwenden.
 
+Die Lernziele entsprechen im Wesentlichen jenen des Kapitel 7 aus dem
+Lehrmittel Arnold et al., Informatik: Programmieren und Robotik:
+Grundlagen der Informatik für Schweizer Maturitätsschulen. 1. Auflage,
+Baar 2021.
+
 Die Aufgabenstellung verlangt, dass zwei Funktionen durch die SuS
-definiert werden. Dabei soll eine der beiden Funktionen die andere
+definiert werden. Auch wenn die SuS nur eine der beiden verlangten
+Funktionen definieren, ist das erste Lernziel abgedeckt. Dadurch,
+dass die Aufgabenstellung die Definition einer separaten Funktion zur
+Berechnung des Gewinnes verlangt, ist auch sichergestellt, dass das
+erste Lernziel überprüft werden kann, wenn die Aufgabe als ganzes nicht
+gelöst wird.
+
+
+
+Dabei soll eine der beiden Funktionen die andere
 verwenden. Damit werden die ersten beiden Lernziele überprüft. Das
 dritte Lernziel wird nicht explizit überprüft. Allerdings kann davon
 ausgegangen werden, dass SuS, welche selber definierte Funktionen in
