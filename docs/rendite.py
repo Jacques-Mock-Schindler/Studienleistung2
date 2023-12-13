@@ -6,7 +6,7 @@ def return_on_investment(expenses: float, income: float, investment: float) -> f
     """Returns the return on investment."""
     earnings = _earnings(expenses, income)
     roi = earnings / investment * 100
-    print(f'Your return on investment is {roi:.2f}%.')
+    print(f'The RoI is {roi:.2f}%.')
     return roi
 
 def _test_return_on_investment() -> None:
