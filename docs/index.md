@@ -112,6 +112,8 @@ Lernziele überprüft werden.
 
 ## Korrekturanleitung
 
+Der Korrektur liegt folgendes Punkteschema zu Grunde:
+
 Für die
 
 - Implementierung der Hilfsfunktion gibt es 1 Punkt;
@@ -122,11 +124,16 @@ Für die
 
 Die gesamte Aufgabe gibt damit 5 Punkte.
 
-Die Logik und die Ausgabe kann mit Hilfe des Unittests überprüft werden.
-Manuell zu korrigieren bleiben die Type Hints und Docstrings. Ausserdem
-muss bei fehlerhaftem Unittest der Code für die Vergabe von Teilpunkten
-manuell geprüft werden.
+Da gemäss Ausgangslage die Prüfungsaufgabe für die ganze Fachschaft zur
+Verfügung gestellt wird, lohnt es sich, die Korrektur soweit möglich zu
+automatisieren. Aus diesem Grund wird ein Unittest zur Verfügung
+gestellt. Dieser ermöglicht die automatische Korrektur der Logik, der
+Formatierung der Ausgabe sowie die korrekte Implementierung der Type
+Hints.
 
+Da die verlangten Doc Strings individuell ausgestaltet formuliert werden
+können, können diese nicht automatisiert korrigiert werden und müssen
+manuell im Code der Abgabe korrigiert werden.
 
 
 [^1]: https://teachingtools.uzh.ch/asset/630f429c9b41e629750c95e2/download
