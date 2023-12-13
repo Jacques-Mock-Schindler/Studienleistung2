@@ -10,17 +10,21 @@ output: pdf_document
 
 Schreiben Sie eine Funktion, welche die Gesamtkapitalrentabilität einer
 Investition (Return on Investment, RoI) aus den Grössen Ausgaben,
-Einnahmen sowie investiertes Kapital berechnet.
+Einnahmen sowie dem investierten Kapital berechnet.
 
-Schreiben Sie für die Berechnung der RoI zwei Funktionen.
+Implementieren Sie im beiliegenden File `aufgabe.py` die beiden Funktionen
 
-1. Eine Hilfsfunktion, welche den Gewinn der Investition berechnet.
-2. Ein Hauptfunktion, welche unter Verwendung der Hilfsfunktion die RoI
-   berechnet. Die RoI soll von der Funktion zurückgegeben werden.
-   Ausserdem soll im Terminal "The RoI is 12.25%." mit dem korrekten RoI
-   ausgegeben werden.
+1. `_earnings()`, welche den Gewinn der Investition berechnet sowie
+2. `return_on_investment()`, welche unter Verwendung der Funktion
+   `_earnings()` die RoI berechnet. Die RoI soll von der Funktion
+   zurückgegeben werden. Ausserdem soll im Terminal "The RoI is 12.25%."
+   mit dem korrekten RoI ausgegeben werden.
 
 Versehen Sie Ihre Funktionen mit Type Hints und einem Docstring.
+
+Das File für Abgabe wird mit den Signaturen der beiden verlangten
+Funktionen zur Verfügung gestellt. In den Signaturen fehlen aufgrund der
+konkreten Aufgabenstellung die Type Hints.
 
 
 # Leitfragen
@@ -99,13 +103,21 @@ gelöst wird.
 Die Funktion zur Berechnung des Gewinnes stellt für sich alleine keine
 besonders anspruchsvolle Aufgabe dar. Allerdings müssen die SuS die
 selber definierte Hilfsfunktion in der ebenfalls selber zu definierenden
-Hauptfunktion verwenden. Damit wird das zweite Lernziel abgedeckt.
+Hauptfunktion verwenden. Aufgrund der Aufgabenstellung ist damit zu
+rechnen, dass einzelne SuS Redundanzen schaffen werden und die Logik für
+die Berechnung des Gewinnes entgegen der Aufgabenstellung direkt in in
+der Funktion `return_on_investment()` implementieren werden.
+
+Das zweite Lernziel wird nur erfüllt, wenn die Funktion `_earnings()` in
+für die Berechnung der RoI verwendet wird. Anspruchsvoll ist dieser Teil
+der Aufgabe weil die Lösung in Teilschritten zu erfolgen hat.
 
 Das
 dritte Lernziel wird nicht explizit überprüft. Allerdings kann davon
 ausgegangen werden, dass SuS, welche selber definierte Funktionen in
-eigenen Funktionen verwenden, dies auch mit vordefinierten Funktionen
-können. Implizit wird damit auch das dritte Lernziel überprüft.
+eigenen Funktionen verwenden, auch in der Lage sind, vordefinierte
+Funktionen zu verwenden. Implizit wird damit auch das dritte Lernziel
+überprüft.
 
 So ist sichergestellt, dass durch die Prüfungsaufgabe alle drei
 Lernziele überprüft werden.
@@ -125,11 +137,14 @@ Für die
 Die gesamte Aufgabe gibt damit 5 Punkte.
 
 Da gemäss Ausgangslage die Prüfungsaufgabe für die ganze Fachschaft zur
-Verfügung gestellt wird, lohnt es sich, die Korrektur soweit möglich zu
-automatisieren. Aus diesem Grund wird ein Unittest zur Verfügung
-gestellt. Dieser ermöglicht die automatische Korrektur der Logik, der
-Formatierung der Ausgabe sowie die korrekte Implementierung der Type
-Hints.
+Verfügung gestellt wird, wird die Prüfung von einer Vielzahl von SuS
+abgelegt.
+Ökonomie der Kräfte
+Bei solchen Querschnittsprüfungen lohnt es sich, die Korrektur
+soweit möglich zu automatisieren. Aus diesem Grund wird ein Unittest zur
+Verfügung gestellt. Dieser ermöglicht die automatische Korrektur der
+Logik, der Formatierung der Ausgabe sowie die korrekte Implementierung
+der Type Hints.
 
 Da die verlangten Doc Strings individuell ausgestaltet formuliert werden
 können, können diese nicht automatisiert korrigiert werden und müssen
