@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 from io import StringIO
 
-from rendite import _earnings, return_on_investment
+from aufgabe import _earnings, return_on_investment
 
 class TestRendite(unittest.TestCase):
     def test_earnings(self):
