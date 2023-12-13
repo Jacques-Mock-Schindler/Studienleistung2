@@ -1,8 +1,10 @@
 import unittest
 from unittest.mock import patch
 from io import StringIO
+from typing import get_type_hints
 
 from aufgabe import _earnings, return_on_investment
+# from rendite import _earnings, return_on_investment
 
 class TestRendite(unittest.TestCase):
     def test_earnings(self):
@@ -20,6 +22,16 @@ class TestRendite(unittest.TestCase):
         self.assertEqual(return_on_investment(100, 200, 100), 100)
         self.assertEqual(return_on_investment(100, 200, 200), 50)
         self.assertEqual(return_on_investment(200, 140, 300), -20)
+        
+    def test_type_hints_eranings(self):
+        erwartete_hints = {'expenses': float, 'income': float, 'return': float}
+        tatsaechliche_hints = get_type_hints(_earnings)
+        self.assertEqual(erwartete_hints, tatsaechliche_hints)
+        
+    def test_type_hints_return_on_investment(self):
+        erwartete_hints = {'expenses': float, 'income': float, 'investment': float, 'return': float}
+        tatsaechliche_hints = get_type_hints(return_on_investment)
+        self.assertEqual(erwartete_hints, tatsaechliche_hints)
         
 if __name__ == '__main__':
     unittest.main()
