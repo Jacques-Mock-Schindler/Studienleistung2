@@ -139,16 +139,21 @@ Die gesamte Aufgabe gibt damit 5 Punkte.
 Da gemäss Ausgangslage die Prüfungsaufgabe für die ganze Fachschaft zur
 Verfügung gestellt wird, wird die Prüfung von einer Vielzahl von SuS
 abgelegt.
-Ökonomie der Kräfte
-Bei solchen Querschnittsprüfungen lohnt es sich, die Korrektur
-soweit möglich zu automatisieren. Aus diesem Grund wird ein Unittest zur
-Verfügung gestellt. Dieser ermöglicht die automatische Korrektur der
-Logik, der Formatierung der Ausgabe sowie die korrekte Implementierung
-der Type Hints.
+Entsprechend wichtig ist es, dass bereits beim Erstellen der
+Prüfungsaufgabe der Aufwand für die Korrektur mitberücksichtigt wird.
+Wenn die Aufgabenstellung wie im vorliegenden Fall ganze Funktionen als
+Lösung erfordert, kann für die Korrektur auf die von Python zur
+Verfügung gestellten Unittests abgestellt werden. So kann die Korrektur
+- zumindest für die korrekten Lösungen - für die Logik, die Formatierung
+der Ausgabe sowie die Type Hints automatisiert werden.
 
 Da die verlangten Doc Strings individuell ausgestaltet formuliert werden
 können, können diese nicht automatisiert korrigiert werden und müssen
 manuell im Code der Abgabe korrigiert werden.
+
+Entsprechend umfasst die Abgabe neben dem File für die Abgabe der
+Antwort und der Musterlösung auch noch ein File mit dem Unittest für die
+Überprüfung der Funktionsfähigkeit der Schülerlösungen.
 
 
 [^1]: https://teachingtools.uzh.ch/asset/630f429c9b41e629750c95e2/download
