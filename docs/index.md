@@ -147,7 +147,7 @@ Verfügung gestellten Unittests abgestellt werden. So kann die Korrektur
 - zumindest für die korrekten Lösungen - für die Logik, die Formatierung
 der Ausgabe sowie die Type Hints automatisiert werden.
 
-Da die verlangten Doc Strings individuell ausgestaltet formuliert werden
+Da die verlangten Docstrings individuell ausgestaltet formuliert werden
 können, können diese nicht automatisiert korrigiert werden und müssen
 manuell im Code der Abgabe korrigiert werden.
 
