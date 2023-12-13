@@ -2,7 +2,7 @@
 title: "Studienleistung 2 Fachdidaktik 1 im GymInf-Programm im Herbstsemester 2023"
 subtitle: "Konzeption einer Prüfungsaufgabe zu Funktionen in Python"
 author: "Jacques Mock Schindler"
-date: "10. Dezember 2023"
+date: "13. Dezember 2023"
 output: pdf_document
 ---
 
@@ -51,10 +51,10 @@ Diese beiden Einschränkungen führen in der Kombination zu einem
 ausgeprägten Silo-Denken der Schülerinnen und Schüler (SuS).
 
 Die gestellte Prüfungsaufgabe verlangt inhaltlich die Berechnung der
-Gesamtkapitalrentabilität. Damit wird auf ein Inhalt aus dem Fach
+Gesamtkapitalrentabilität. Damit wird auf einen Inhalt aus dem Fach
 Wirtschaft und Recht Bezug genommen. Dies zwingt die SuS, Wissen aus
 einem Fach in einem anderen Fach anzuwenden. Ein solcher, wenn auch
-bescheidener, interdisziplinärer Ansatz, stellt für viele SuS eine
+bescheidener, interdisziplinärer Ansatz stellt für viele SuS eine
 Herausforderung dar und macht die Aufgabenstellung schon so
 anspruchsvoll.
 
@@ -82,9 +82,9 @@ Der Prüfungsaufgabe liegen die folgenden Lernziele zugrunde:
 >- können Funktionen in Python definieren;
 >
 >- können selber definierte Funktionen in Scripts und als Bestandteil
->  eigener Funktionen verwenden und ausserdem
+>  eigener Funktionen verwenden und
 > 
->- können sie vordefinierte Funktionen in Scripts und als Bestandteil
+>- können vordefinierte Funktionen in Scripts und als Bestandteil
 >  eigener Funktionen verwenden.
 
 Die Lernziele entsprechen im Wesentlichen jenen des Kapitel 7 aus dem
@@ -105,12 +105,12 @@ besonders anspruchsvolle Aufgabe dar. Allerdings müssen die SuS die
 selber definierte Hilfsfunktion in der ebenfalls selber zu definierenden
 Hauptfunktion verwenden. Aufgrund der Aufgabenstellung ist damit zu
 rechnen, dass einzelne SuS Redundanzen schaffen werden und die Logik für
-die Berechnung des Gewinnes entgegen der Aufgabenstellung direkt in in
+die Berechnung des Gewinnes entgegen der Aufgabenstellung direkt in
 der Funktion `return_on_investment()` implementieren werden.
 
-Das zweite Lernziel wird nur erfüllt, wenn die Funktion `_earnings()` in
+Das zweite Lernziel wird nur erfüllt, wenn die Funktion `_earnings()`
 für die Berechnung der RoI verwendet wird. Anspruchsvoll ist dieser Teil
-der Aufgabe weil die Lösung in Teilschritten zu erfolgen hat.
+der Aufgabe, weil die Lösung in Teilschritten zu erfolgen hat.
 
 Das
 dritte Lernziel wird nicht explizit überprüft. Allerdings kann davon
@@ -129,10 +129,10 @@ Der Korrektur liegt folgendes Punkteschema zu Grunde:
 Für die
 
 - Implementierung der Hilfsfunktion gibt es 1 Punkt;
-- die Type Hints und den Docstring der Hilfsfunktion gibt es 1 Punkt;
-- die korrekte Implementierung der Berechnung der RoI gibt 1 Punkt;
-- die Ausgabe im Terminal gibt 1 Punkt sowie
-- die korrekte Formatierung des Resultates im Terminal gibt 1 Punkt.
+- Type Hints und den Docstring der Hilfsfunktion gibt es 1 Punkt;
+- korrekte Implementierung der Berechnung der RoI gibt 1 Punkt;
+- Ausgabe im Terminal gibt 1 Punkt sowie
+- korrekte Formatierung des Resultates im Terminal gibt 1 Punkt.
 
 Die gesamte Aufgabe gibt damit 5 Punkte.
 
